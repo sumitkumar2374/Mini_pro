@@ -1,1 +1,1 @@
-alert("welcom to Mini_pro!")
+alert("Welcom To Mini Project!")
