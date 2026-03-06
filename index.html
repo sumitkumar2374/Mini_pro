@@ -11,8 +11,8 @@
 </head>
 
 <body>
-    <div>
-        <h1 id="head">
+    <div id="card">
+        <h1>
             <pre>                              Users Details fill the details be carefully! </pre>
         </h1>
     </div>
@@ -30,7 +30,7 @@
             necessitatibus labore quod, expedita id ea. Deleniti vel aspernatur possimus. Odio, alias!
         </p>
 
-        <input type="checkbox" name="agree" value="yes"> I agree
+        <input class="frame" type="checkbox" name="agree" value="yes"> I agree
     </div>
     <!-- <hr> -->
     <div>
@@ -81,7 +81,7 @@
         </p>
 
         <form action="/action.php" method="post" id="myform">
-            <textarea cols="65" name="comments" rows="3" placeholder="Please give our feedback here ....."
+            <textarea class="area" cols="65" name="comments" rows="3" placeholder="Please give our feedback here ....."
                 autofocus></textarea>
 
             <br>
@@ -99,7 +99,7 @@
                 Possimus, veritatis?
             </p>
 
-            <input name="term" id="terms" type="checkbox" value="tandc" required>
+            <input class="frame" name="term" id="terms" type="checkbox" value="tandc" required>
             <label for="terms">Acept terms!</label>
         </form>
     </div>
@@ -138,12 +138,12 @@
                 aliquam dolor vel quo pariatur est maiores illum aspernatur ut non neque dolores optio nihil, ipsa quod
                 cumque.</p>
 
-            <input type="radio" id="male" name="gender" value="male">
+            <input class="frame" type="radio" id="male" name="gender" value="male">
             <label for="male">Male</label>
 
             <br>
 
-            <input type="radio" id="female" name="gender" value="female">
+            <input class="frame" type="radio" id="female" name="gender" value="female">
             <label for="female">Female</label>
 
         </form>
@@ -164,7 +164,7 @@
         </p>
 
         <form action="/submit.php" method="post">
-            <input type="number" name="quantity" min="1" max="10" placeholder="Quan...">
+            <input class="frame" type="number" name="quantity" min="1" max="10" placeholder="Num...">
         </form>
     </div>
     <!-- <hr> -->
@@ -183,7 +183,7 @@
         </p>
 
         <form action="" method="post">
-            <input type="email" name="email" placeholder="Enter Email" autocomplete="on">
+            <input class="frame" type="email" name="email" placeholder="Enter Email" autocomplete="on">
         </form>
     </div>
     <!-- <hr> -->
@@ -201,7 +201,7 @@
         </p>
 
         <form action="" method="post">
-            <input type="search" name="query" placeholder="Search" readonly>
+            <input class="frame" type="search" name="query" placeholder="Search" readonly>
         </form>
     </div>
     <!-- <hr> -->
@@ -218,7 +218,7 @@
             corrupti amet? Atque quam harum fugit distinctio laboriosam recusandae! Amet?</p>
 
         <form action="" method="post">
-            <input type="url" name="website" placeholder="Enter URL" disabled>
+            <input class="frame" type="url" name="website" placeholder="Enter URL" disabled>
         </form>
     </div>
     <!-- <hr> -->
@@ -235,7 +235,7 @@
         </p>
 
         <form action="" method="post">
-            <input type="date" name="birthdate"><br>
+            <input class="frame" type="date" name="birthdate"><br>
         </form>
     </div>
     <!-- <hr> -->
@@ -251,7 +251,7 @@
             cupiditate odit ea inventore! Iure id, nisi quidem soluta expedita voluptatum. Cum!</p>
 
         <form action="" method="post">
-            <input type="time" name="meeting_time" id="time">
+            <input class="frame" type="time" name="meeting_time" id="time">
         </form>
     </div>
     <!-- <hr> -->
@@ -267,7 +267,7 @@
             deserunt minus. Nostrum, reiciendis?</p>
 
         <form action="" method="post">
-            <input type="datetime-local" name="" id="">
+            <input class="frame" type="datetime-local" name="" id="">
         </form>
     </div>
     <!-- <hr> -->
@@ -283,7 +283,7 @@
             nesciunt provident nostrum. Veniam, quidem? Porro eum quod quis atque!</p>
 
         <form action="" method="post">
-            <input type="color" name="color_picker">
+            <input class="frame" type="color" name="color_picker">
         </form>
     </div>
     <div>
@@ -297,21 +297,25 @@
 
         <dl>
             <dt>HTML</dt>
-            <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, quas reprehenderit voluptatummagni
+            <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, quas reprehenderit
+                voluptatummagni
+                ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, quas reprehenderit voluptatummagni
                 expedita dolore, non doloremque minus veritatis assumenda est hic harum eos velit blanditiis laborum id,
                 eaque Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic minima nulla quidem quo laborum
                 voluptatibus odio, culpa voluptate ipsam facilis quia laboriosam harum, recusandae error deserunt
                 commodi ut eveniet sit!
             </dd>
             <dt>CSS</dt>
-            <dd>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet praesentium nulla eos remarchitecto
+            <dd>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet praesentium nulla eos
+                remarchitecto
                 placeat commodi dignissimos assumenda illum quasi, corrupti quis unde dolorum eligendi libero explicabo
                 excepturi debitis doloremque, velit deserunt nam. In veniam consequuntur officia sint facere minima
                 beatae id. Ullam, sequi sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam
                 eveniet blanditiis! Ipsum odio praesentium animi aliquid atque aut voluptatibus!
             </dd>
             <dt>JS</dt>
-            <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas veniam quis ipsa iure, corrupti
+            <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas veniam quis ipsa iure,
+                corrupti
                 inventore nisi labore ipsam et commodi alias rerum fugiat assumenda laborum, cumque dignissimos sed
                 atque! Tempore, quidem! Perferendis enim itaque reprehenderit numquam placeat repudiandae quidem,
                 reiciendis blanditiis maxime, consequatur modi, officia sint nam cum nihil incidunt? Lorem ipsum dolor
@@ -329,7 +333,8 @@
             itaque reprehenderit temporibus expedita quod, asperiores error necessitatibus. Voluptatibus blanditiis, ea
             vel voluptatem temporibus, quod suscipit quia, accusantium facere ducimus hic ut consequuntur at in.</p>
 
-        <iframe class="frame" src="https://maps.google.com/maps?q=LOCATION&output=embed" frameborder="0">Google maps</iframe>
+        <iframe class="frame" src="https://maps.google.com/maps?q=LOCATION&output=embed" frameborder="0">Google
+            maps</iframe>
     </div>
     <!-- <hr> -->
     <div>
@@ -403,8 +408,8 @@
             officia nisi cumque.
         </p>
         <form>
-            <input type="text" name="username" placeholder="After fill the form type here.." required>
-            <button type="submit">Submit</button>
+            <input class="frame" type="text" name="username" placeholder="After fill the form type here.." required>
+            <button class="frame" type="submit">Submit</button>
         </form>
     </div>
     <div>
@@ -420,7 +425,7 @@
             accusamus ut odit animi, impedit, labore error aliquam sunt quos eaque at fugit similique quo. At, commodi
             accusamus.
         </p>
-        <button type="submit" form="myform">Submit</button>
+        <button class="frame" type="submit" form="myform">Submit</button>
     </div>
     <script src="script.js"></script>
 
