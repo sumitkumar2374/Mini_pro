@@ -1,0 +1,1 @@
+alert("welcom to Mini_pro!")
