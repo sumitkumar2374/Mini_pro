@@ -7,11 +7,11 @@ body {
 }
 .photo {
     border-radius: 10%;
-    box-shadow: 8px 8px 16px gray;
+    
+    /* box-shadow: 3px 3px 10px gray, -3px -3px 10px lightgray; */
 }
 .frame{ 
     border-radius: 3%;
-    box-shadow: 10px 10px 20px gray;
     backdrop-filter: blur(10px);
 }
 /* #head{
@@ -37,7 +37,26 @@ body {
 } */
 
 .area{
-     border-radius: 0%;
-    box-shadow: 10px 10px 20px gray;
+    border-radius: 0%;
+    
     backdrop-filter: blur(10px);
+}
+.frame:hover{  
+    transition: box-shadow 0.5s ease-in-out 0.3s; 
+    box-shadow: 10px 10px 20px gray;
+    transition-delay: 0s;
+    /* transition: box-shadow 0.5s ease 0.3s; */
+    /* transition: box-shadow 0.5s ease 1s; */
+
+}
+.photo:hover{
+    /* transition: box-shadow 0.5s ease 0.3s; */
+    transition: box-shadow 0.5s ease-in-out 0.3s; 
+    box-shadow: 8px 8px 16px gray;
+    transition-delay: 0s;
+}
+.area:hover{
+     transition: box-shadow 0.5s ease-in-out 0.3s; 
+    box-shadow: 10px 10px 20px gray;
+    transition-delay: 0s;
 }
