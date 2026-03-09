@@ -1,19 +1,28 @@
 body {
-    background-color:whitesmoke;
+    background-color: whitesmoke;
     color: black;
-    padding: 0; 
-    margin: 0;
+    /* padding: 0; */
+    /* margin: 0; */
     /* background-color: rgba(255,255,255,0.3); */
 }
+
 .photo {
     border-radius: 10%;
+    transition: 0.5s;
+    /* border: 3px solid black; */
     
+    /* box-shadow: 10px 10px 20px gray; */
+
     /* box-shadow: 3px 3px 10px gray, -3px -3px 10px lightgray; */
 }
-.frame{ 
+
+.frame {
     border-radius: 3%;
     backdrop-filter: blur(10px);
+    transition: 0.5s;
+    /* border: 3px solid black; */
 }
+
 /* #head{
     background-color: aqua; 
     border-radius: 100%;
@@ -36,27 +45,49 @@ body {
   top: 0;
 } */
 
-.area{
+.area {
     border-radius: 0%;
-    
+    transition: 0.5s;
     backdrop-filter: blur(10px);
+    /* padding: 20px; */
+    /* border: 3px solid black; */
 }
-.frame:hover{  
-    transition: box-shadow 0.5s ease-in-out 0.3s; 
+
+.frame:hover {
+    /* transition: box-shadow 0.5s ease-in-out 0.3s;  */
     box-shadow: 10px 10px 20px gray;
-    transition-delay: 0s;
+    /* transition-delay: 0s; */
+    transform: scale(1.1);
+    margin: 20px;
+    /* border: aqua; */
     /* transition: box-shadow 0.5s ease 0.3s; */
     /* transition: box-shadow 0.5s ease 1s; */
 
 }
-.photo:hover{
+
+.photo:hover {
     /* transition: box-shadow 0.5s ease 0.3s; */
-    transition: box-shadow 0.5s ease-in-out 0.3s; 
+    /* transition: box-shadow 0.5s ease-in-out 0.3s;  */
     box-shadow: 8px 8px 16px gray;
-    transition-delay: 0s;
+    /* transition-delay: 0s; */
+    /* transition:0.5s; */
+    transform: scale(1.1);
+    margin: 20px;
+    /* border: aqua; */
 }
-.area:hover{
-     transition: box-shadow 0.5s ease-in-out 0.3s; 
+
+.area:hover { 
+    /* transition: box-shadow 0.5s ease-in-out 0.3s;  */
     box-shadow: 10px 10px 20px gray;
-    transition-delay: 0s;
+    /* transition-delay: 0s; */
+    transform: scale(1.1);
+    border-color: blue;
+    margin: 20px;
+}
+
+h1 {
+
+    text-shadow:
+        2px 2px 5px black,
+        -2px -2px 5px gray;
 }
