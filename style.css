@@ -81,7 +81,7 @@ body {
     box-shadow: 10px 10px 20px gray;
     /* transition-delay: 0s; */
     transform: scale(1.1);
-    border-color: blue;
+    border-color:blue;
     margin: 20px;
 }
 
@@ -116,4 +116,8 @@ h2{
 h3{
   font-family: "Dancing Script", cursive;
   margin-top: 0;
+}
+#flex{
+    display: flex;
+    justify-content: center;
 }
