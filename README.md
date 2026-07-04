@@ -1,9 +1,3 @@
-# Here are the commit list for contribution graph
-
-- 1st/2nd commit
-- 3rd commit list some attching imp files
-- 4th commit list is to check and preview 
-
 # Mini Project
 
 This mini web project is a fully **functional and responsive application** developed using HTML, CSS, and JavaScript. 
