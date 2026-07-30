@@ -4,7 +4,7 @@ This ```mini web project ``` is a fully **functional and responsive application*
 
 ---
 
-It showcases interactive ```UI``` components, ```dynamic``` content updates, and integration of multimedia elements such as ```images```, YouTube videos, and embedded Google Maps, following modern web development best practices to provide a seamless user experience.
+It showcases interactive ```UI``` components, ```dynamic``` content updates, and integration of multimedia elements such as ```images```, ```YouTube``` videos, and embedded Google Maps, following modern web development best practices to provide a seamless user experience.
 
 ## 📌 Author
 
