@@ -2,6 +2,7 @@
 
 - 1st/2nd commit list
 - 3rd commit list is add some file
+- 4th commit list is the check
 
 # Mini Project
 
