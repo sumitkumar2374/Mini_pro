@@ -1,9 +1,3 @@
-# Here are the commit list
-
-- 1st/2nd commit list
-- 3rd commit list is add some file
-- 4th commit list is the check
-
 # Mini Project
 
 This ```mini web project ``` is a fully **functional and responsive application** developed using ```HTML```, ```CSS```, and ```JavaScript```. 
