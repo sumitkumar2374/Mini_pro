@@ -1,5 +1,7 @@
 # Here are the commit list for contribution graph 
 
+- 1st/2nd commit list 
+
 # Mini Project
 
 This ```mini web project ``` is a fully **functional and responsive application** developed using ```HTML```, ```CSS```, and ```JavaScript```. 
