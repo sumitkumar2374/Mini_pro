@@ -1,11 +1,4 @@
-# Here are the commit list for contribution graph 
-
-- 1st/2nd commit list
-- 3rd commit list is the check and changes
-- 4th commit list is the preview
-- 5th commit list is the latest change 
-
-# Mini Project
+# Mini Project 
 
 This ```mini web project ``` is a fully **functional and responsive application** developed using ```HTML```, ```CSS```, and ```JavaScript```. 
 
