@@ -1,7 +1,8 @@
 # Here are the commit list for contribution graph 
 
 - 1st/2nd commit list
-- 3rd commit list is the check and changes 
+- 3rd commit list is the check and changes
+- 4th commit list is the preview 
 
 # Mini Project
 
